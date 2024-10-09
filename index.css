@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0e0e0; /* Lighter background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-image: url(image.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.atm-container {
+    background-color: #4b4b4b; /* Darker container color */
+    color: #f0f0f0; /* Lighter text color */
+    padding: 40px; /* Increased padding for spaciousness */
+    border-radius: 20px; /* More rounded corners */
+    width: 350px; /* Slightly smaller width */
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Deeper shadow for depth */
+}
+
+input {
+    margin-top: 15px;
+    margin: 10px 0; /* Unified margin for top and bottom */
+    padding: 15px; /* More padding for input fields */
+    width: calc(100% - 24px); /* Adjusted width for padding */
+    font-size: 18px; /* Increased font size for better readability */
+    border: 2px solid #888; /* Softer border color */
+    border-radius: 10px; /* More rounded corners */
+    text-align: center; /* Center text in input fields */
+    transition: border 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+input:focus {
+    border-color: #ffa500; /* Orange border on focus */
+    box-shadow: 0 0 8px rgba(255, 165, 0, 0.5); /* Glow effect on focus */
+}
+
+button {
+    margin-top: 15px;
+    padding: 15px 25px; /* Increased button padding */
+    background-color: #f76d00; /* Orange background */
+    border: none;
+    border-radius: 10px; /* Rounded corners for buttons */
+    font-size: 20px; /* Increased font size for buttons */
+    color: #000000; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+   
+}
+
+button:hover {
+    background-color:  #dbb46cd8; /* Darker orange on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    color: rgb(253, 253, 253);
+   
+
+}
+
+.hidden {
+    display: none;
+}
+
+.message {
+    margin-bottom: 20px;
+    font-size: 20px; /* Larger font size for message */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #ffcc00; /* Bright color for visibility */
+}
+
+.balance-message {
+    margin-top: 20px;
+    font-size: 22px; /* Larger font size for balance message */
+    color: #ff1493; /* Vivid pink for balance message */
+    font-weight: bold; /* Bold text for emphasis */
+}
